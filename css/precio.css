@@ -1,0 +1,63 @@
+.precio{
+    background-color: #111A19;
+    margin: 0 2em;    
+    color: white;
+}
+.precio_contenedor{
+    padding: 5% 25%;
+}
+.precio_iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.precio_iconos div{
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    margin: .5em;
+    border: 3px solid #01AC9E;
+}
+.precio_iconos div:hover{    
+    border: 3px solid white;
+    background-color: #01AC9E;
+}
+.precio_descripcion, .precio_link p{
+    margin: 3em 0;
+    text-align: center;
+    line-height: 30px;
+}
+.precio_link{
+    width: 35%;
+    margin: 0 auto;
+}
+.precio_link a{
+    color: #01AC9E;
+}
+.precio_link a:hover{
+    color: white;
+}
+hr{
+    opacity: .5;
+}
+.precio_moneda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4em;
+}
+.precio_moneda div{
+    width: 33%;
+    text-align: center;    
+}
+.precio_moneda h2{
+    font-weight: bold;
+    font-size: 52px;
+}
+.precio_moneda p{
+    opacity: 0.5;
+    font-size: 16px;
+    margin-top:.5em;
+    
+}

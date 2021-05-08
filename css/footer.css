@@ -1,0 +1,41 @@
+.footer{
+    background-color: #181818;
+    margin: 0%;
+    color: white;
+    padding-top: 2em;
+    width: 100%;
+}
+.footer_contenedor{
+    display: flex;    
+}
+.caja_logo{
+    width: 30%;
+}
+.footer_caja{
+    width: 70%;
+}
+.footer_contenedor .caja_logo{
+    display:block;
+}
+.footer_descripcion{
+    width: 30%;
+    margin-bottom: 10%;
+}
+.caja_contenedor{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2em;
+}
+.footer_caja {
+    display: flex;
+}
+.footer_caja div{
+    width: 25%;
+}
+.footer_caja .menu{
+    display: block;
+}
+.footer_caja .menu li:nth-child(2), li:nth-child(3), li:nth-child(4), li:nth-child(5), li:nth-child(6), .footer_descripcion hr, address{
+    opacity: 0.2;
+}

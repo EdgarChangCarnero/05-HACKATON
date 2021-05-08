@@ -1,0 +1,52 @@
+header{
+    display: flex;
+    color: white;
+    min-height: 10vh;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center; 
+}
+.caja_logo{
+    width: 20%;     
+    margin-left: 3em; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.caja_menu{
+    width: 60%;
+}
+.caja_boton{
+    width: 20%;
+    display: flex;
+    justify-content:center;
+    align-items: center;   
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;    
+}
+.logo:hover{
+    border-radius: 0%;
+    background-color: #01AC9E;  
+}
+.descripcion_logo{
+    padding-left: .5em;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;    
+}
+.menu_lista{
+    opacity: 0.7;
+}
+.menu_lista:hover{
+    opacity: 1;
+}
+.boton{
+    background-color: #01AC9E;
+    color: white;
+    padding: 1em;
+}

@@ -1,0 +1,89 @@
+.proyectos {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 7em;
+}
+
+.proyectos_iconos {
+    display: flex;
+    justify-content:space-between;
+}
+
+.proyectos_iconos div:nth-child(1) {
+    background-image: url('https://i.pinimg.com/474x/e2/39/6b/e2396b77d6d537b11d3622adf899d97c.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+
+.proyectos_iconos div:nth-child(2) {
+    background-image: url('https://i.pinimg.com/474x/d6/f8/e8/d6f8e8fdf18062f9232d7e1311da4e2b.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+.proyectos_iconos div:nth-child(3) {
+    background-image: url('https://i.pinimg.com/originals/37/fc/74/37fc748d4fe8961bcbe07505eb7628a5.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+.proyectos_iconos div:nth-child(4) {
+    background-image: url('https://i.pinimg.com/474x/25/c8/a5/25c8a56ba83d2c06f012fad17845df0e.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+.proyectos_iconos div:nth-child(5) {
+    background-image: url('https://i.pinimg.com/originals/f3/e6/4e/f3e64e039ac6df5133a2f204ae9184da.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+.proyectos_iconos div:nth-child(5) {
+    background-image: url('https://ak.picdn.net/shutterstock/videos/1034876309/thumb/6.jpg?ip=x480');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+.proyectos_otros{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.proyectos_otros div:nth-child(1) {
+    background-image: url('https://i.pinimg.com/736x/9b/30/8b/9b308b2f2ce4010c6023e57175910445.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+
+.proyectos_otros div:nth-child(2) {
+    background-image: url('https://thumbs.dreamstime.com/b/icono-de-documento-en-fondo-negro-ilustraci%C3%B3n-vectores-estilo-plano-168420534.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+}
+.proyecto_contenedor p{
+    font-size: 28px;
+    opacity: .7;
+    padding: 2em;
+}
